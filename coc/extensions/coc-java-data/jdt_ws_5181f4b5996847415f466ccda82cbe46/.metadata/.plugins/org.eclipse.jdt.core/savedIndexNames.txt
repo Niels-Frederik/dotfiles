@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/nieb/.config/coc/extensions/coc-java-data/jdt_ws_5181f4b5996847415f466ccda82cbe46/.metadata/.plugins/org.eclipse.jdt.core

@@ -568,3 +568,273 @@ Command-line arguments:  -data /home/nieb/.config/coc/extensions/coc-java-data/j
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 13:18:24.434
 !MESSAGE >> document/didClose
+!SESSION 2021-08-20 17:44:36.887 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nieb/.config/coc/extensions/coc-java-data/jdt_ws_fee768828a8426da090857f810ca9b80
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-20 17:44:37.587
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:37.885
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.033
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.059
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.063
+!MESSAGE Initializing Java Language Server 1.4.0.202108192059
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.080
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.080
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.084
+!MESSAGE >> Updating classpath for project Concurrent_and_parallel_programming_bbd8f964
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.134
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.794
+!MESSAGE Workspace initialized in 679ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.797
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.802
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.804
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, home=/usr/lib/jvm/default}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.805
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:38.854
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.226
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.378
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.378
+!MESSAGE 3 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.381
+!MESSAGE Validated 1. Took 143 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.389
+!MESSAGE >> Updating classpath for project Concurrent_and_parallel_programming_bbd8f964
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.419
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.422
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.424
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.425
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.606
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.638
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.642
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:39.938
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:40.094
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:40.613
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:40.613
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:40.614
+!MESSAGE Validated 1. Took 69 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:48.031
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:48.445
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:48.609
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:48.620
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:48.635
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.029
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.462
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.463
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.465
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.592
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.594
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:49.598
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:50.056
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:50.433
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:50.547
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:50.557
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.008
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.126
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.145
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.560
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.769
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.771
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:51.777
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:52.179
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:52.604
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:52.605
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:52.606
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.096
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.098
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.103
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.507
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.951
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.952
+!MESSAGE 3 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:53.952
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:54.336
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:54.788
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:54.793
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:54.795
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:54.800
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:55.251
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:55.750
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:55.751
+!MESSAGE 3 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:55.751
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:55.976
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:56.437
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:56.882
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:56.882
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:44:56.885
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:00.200
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:00.610
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:00.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:01.116
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:01.379
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:01.381
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-08-20 17:45:01.385
+!MESSAGE >> document/didSave

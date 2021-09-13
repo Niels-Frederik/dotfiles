@@ -2,16 +2,5 @@
 "diagnostic.checkCurrentLine": true,
 "metals.javaHome" : "/usr/lib/jvm/default",
 "java.home" : "/usr/lib/jvm/default",
-"languageserver": {
-  "ccls": {
-    "command": "ccls",
-    "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
-    "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
-    "initializationOptions": {
-        "cache": {
-          "directory": "/tmp/ccls"
-        }
-      }
-  }
-}
+"clangd.fallbackFlags": [ "-std=c++17" ]
 }

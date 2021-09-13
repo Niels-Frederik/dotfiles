@@ -1,0 +1,126 @@
+!SESSION 2021-09-13 12:09:35.944 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nieb/.config/coc/extensions/coc-java-data/jdt_ws_935488cafedf1ee077d53305972ef1d9
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:37.992
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.299
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.372
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.382
+!MESSAGE Initializing Java Language Server 1.4.0.202108192059
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.447
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.488
+!MESSAGE Default VM Install changed from  1631527778432-/usr/lib/jvm/java-16-openjdk to 1631527778446-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.521
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.552
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:38.552
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:40.341
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:40.370
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:40.545
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:41.402
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:41.403
+!MESSAGE No previous Gradle project at /home/nieb/Documents/PCPP/Lecture3/Exercises/app, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:57.741
+!MESSAGE Workspace initialized in 17428ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:57.775
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:57.781
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:57.783
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}, home=/usr/lib/jvm/default}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:57.785
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:09:59.970
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.923
+!MESSAGE begin problem for /Benchmark.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.923
+!MESSAGE 11 problems reported for /Benchmark.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.927
+!MESSAGE Validated 1. Took 860 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.948
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.960
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.962
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.972
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:00.973
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:06.712
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:12.863
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:13.903
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:30.802
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:30.833
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:30.847
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:31.318
+!MESSAGE Reconciled 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:31.430
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:31.928
+!MESSAGE begin problem for /Benchmark.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:31.928
+!MESSAGE 11 problems reported for /Benchmark.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:10:31.931
+!MESSAGE Validated 1. Took 159 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-13 12:11:02.905
+!MESSAGE >> document/didClose

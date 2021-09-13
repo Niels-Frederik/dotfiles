@@ -1,0 +1,15 @@
+INDEX VERSION 1.131+/home/nieb/.config/coc/extensions/coc-java-data/jdt_ws_8043429f15a020102d2edf171ef16528/.metadata/.plugins/org.eclipse.jdt.core
+403540798.index
+3229905328.index
+1334474462.index
+1865797976.index
+3710911062.index
+677638567.index
+3842426239.index
+2139254041.index
+2731785273.index
+1926333958.index
+2492607576.index
+4013607337.index
+3725866262.index
+676911311.index

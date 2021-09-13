@@ -57,7 +57,7 @@ font-1 = Iosevka Nerd Font:pixelsize=14;4
 
 modules-left = i3
 #modules-center = xwindow
-modules-right = updates date network eth backlight pulseaudio battery filesystem memory cpu temperature powermenu
+modules-right = updates date keyboard network eth backlight pulseaudio battery filesystem memory cpu temperature powermenu
 
 tray-position = right
 tray-padding = 2
@@ -287,7 +287,7 @@ format-charging = <animation-charging> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
 #format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " " 
+format-full-prefix = " "
 
 format-full-prefix-foreground = ${colors.foreground-alt}
 #format-full-underline = ${self.format-charging-underline}
@@ -322,7 +322,7 @@ label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-#ramp-0 = 
+#ramp-0 =
 #ramp-foreground = ${colors.foreground-alt}
 
 [module/updates]
@@ -357,6 +357,12 @@ format-prefix = 
 ;   %output%
 ; Default: %output%
 label = %output%
+
+[module/keyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+blacklist-1 = scroll lock
+format =  <label-layout>
 
 [module/powermenu]
 type = custom/text

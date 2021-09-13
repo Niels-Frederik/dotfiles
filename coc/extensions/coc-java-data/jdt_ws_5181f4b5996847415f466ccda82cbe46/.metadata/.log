@@ -1,0 +1,70 @@
+!SESSION 2021-09-06 12:21:46.823 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nieb/.config/coc/extensions/coc-java-data/jdt_ws_5181f4b5996847415f466ccda82cbe46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:47.785
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:47.923
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:47.951
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:47.956
+!MESSAGE Initializing Java Language Server 1.4.0.202108192059
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:47.992
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:47.999
+!MESSAGE Default VM Install changed from  1630923707980-/usr/lib/jvm/java-16-openjdk to 1630923707991-/usr/lib/jvm/default
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.005
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.011
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.011
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.provideSemanticTokens, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.project.getSemanticTokensLegend, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.044
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.048
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.094
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.600
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-09-06 12:21:48.601
+!MESSAGE No previous Gradle project at /home/nieb/Documents/PCPP/Lecture2/code-exercises/week02exercises, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-09-06 12:21:48.603
+!MESSAGE /home/nieb/Documents/PCPP/Lecture2/code-exercises/week02exercises/gradle/wrapper/gradle-wrapper.jar doesn't exist.
+!STACK 1
+org.eclipse.core.runtime.CoreException: /home/nieb/Documents/PCPP/Lecture2/code-exercises/week02exercises/gradle/wrapper/gradle-wrapper.jar doesn't exist.
+	at org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)
+	at org.eclipse.jdt.ls.internal.gradle.checksums.WrapperValidator.checkWrapper(WrapperValidator.java:94)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.getGradleDistribution(GradleProjectImporter.java:157)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.getBuildConfiguration(GradleProjectImporter.java:266)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:257)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:147)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.lambda$0(GradleProjectImporter.java:124)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1087)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:124)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:113)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:102)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:203)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2021-09-06 12:21:48.611
+!MESSAGE /home/nieb/Documents/PCPP/Lecture2/code-exercises/week02exercises/gradle/wrapper/gradle-wrapper.jar doesn't exist.
